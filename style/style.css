@@ -1,0 +1,40 @@
+/* Font  */
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/*Hero Section Content*/
+#hero-bg {
+    background-image: url("../assets/Hero-bg.png");
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    max-width: 1440;
+    height: 652px;
+    margin-bottom: 74px;
+}
+
+#hero-bg div {
+    text-align: center;
+    padding-top: 26px;
+}
+
+#hero-bg div h1 p {
+    max-width: 998px;
+    height: 212px;
+}
+
+/* Share Styles */
+.btn-primary {
+    background-color: #0D1321;
+    color: #FFFFFF;
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+}
+
