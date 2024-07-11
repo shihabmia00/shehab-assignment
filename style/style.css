@@ -9,7 +9,6 @@
 /*Hero Section Content*/
 #hero-bg {
     background-image: url("../assets/Hero-bg.png");
-    position: absolute;
     background-position: center;
     background-size: cover;
     left: 0;
@@ -38,3 +37,143 @@
     border-radius: 8px;
 }
 
+.cart-layout{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cart-box{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+}
+/* Main Section Design*/
+
+
+.hero{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #eeeff106;
+    margin-top: 74px;
+    margin-bottom: 48px;
+    border-radius: 10px;
+    padding: 12px 40px;
+}
+
+section .hero-title {
+    color: #0D1321; 
+    margin: 0 144px;
+    font-weight: 700px;
+    font-size: 32px;
+}
+section .hero-des{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.second-hero{
+    background-color: #ffffffa6;
+
+}
+.left-cart{
+    display: block;
+    width: 477px;
+    font-weight: 600px;
+    font-size: 18x;
+
+}
+ /* Box Design */
+.second-hero{
+    display: flex;
+    max-width: 1140px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 12px 40px;
+    background-color: #eae6e6c5;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+ /* Button Design */
+.left-cart a button{
+    color: #0D1321;
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+ /* Box Image Height & Width */
+.left-cart img {
+    width: 274px;
+    height: 240px;
+}
+
+/* 3rd Box Design */
+.third-hero{
+    display: flex;
+    max-width: 1140px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eae6e6c5;
+    gap: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+ /* Button Design */
+.leftcart a button{
+    color: #0D1321;
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+ /* Box Image Height & Width */
+.leftcart img {
+    width: 274px;
+    height: 240px;
+}
+
+/* fourth Box */
+
+.fth-hero{
+    display: flex;
+    max-width: 1140px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eae6e6c5;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.lft-cart{
+    color: #0D1321;
+    width: 477px;
+    height: 219px;
+    padding: 12px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #eeebeb;
+}
+.lft-cart button{
+    color: #0D1321;
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+.lft-cart p { 
+    font-size: 16px;
+    font-weight: normal;
+
+}
