@@ -188,5 +188,58 @@ section .hero-des{
 #vdo iframe{
     border-radius: 16px;
     margin-top: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 15px;
+}
+
+/* Flex Container */
+.flex-container{
+    display: flex;
+    height: 460px;
+    gap: 24px
+
+}
+.con-div{
+    width: 364px;
+    height: 299px;
+    text-align: start;
+    padding: 0 50px;
+    background-color: #ff4b1e13;
+    border-radius: 16px;
+}
+.con-div img {
+    padding-top: 25px;
+    width: 56px;
+    height: 56px;
+}
+.sec-div{
+    width: 364px;
+    height: 299px;
+    text-align: start;
+    padding: 0 50px;
+    background-color: #004de810;
+    border-radius: 16px;
+}
+.sec-div img{
+    padding-top: 25px;
+    width: 56px;
+    height: 56px;
+}
+.trd-div{
+    width: 364px;
+    height: 299px;
+    text-align: start;
+    padding: 0 50px;
+    background-color: #ffdd001e;
+    border-radius: 16px;
+
+}
+.trd-div img{
+    padding-top: 25px;
+    width: 56px;
+    height: 56px;
+}
+.share-p {
+    font-size: 16px;
+    font-weight: bold;
+    
 }
