@@ -177,3 +177,16 @@ section .hero-des{
     font-weight: normal;
 
 }
+/*Video Section*/
+
+#vdo{
+    max-width: 1140px;
+    margin: 0 auto; ;
+    text-align: center;
+    margin-bottom: 48px;
+}
+#vdo iframe{
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
